@@ -22,7 +22,7 @@ pipeline {
 
         stage('Checkout SCM') {
             steps {
-                git branch: 'main', url: 'https://github.com/YogitaH'  // Clone the repo
+                git branch: 'main', url: 'https://github.com/YogitaH/myBlogApp'  // Clone the repo
             }
         }
         
